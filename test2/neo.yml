@@ -1,0 +1,11 @@
+clusters:
+  k8s-test2:
+    parameters:
+      master_flavor: SS2.2
+      master_size: 1
+      private_network: net2-test
+      worker_flavor: SS2.2
+      worker_size: 3
+    template: kubernetes
+deploy:
+- clusters.k8s-test2

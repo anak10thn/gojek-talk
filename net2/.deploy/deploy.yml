@@ -1,0 +1,4 @@
+- dir: /Users/anak10thn/Projects/test/net2/.deploy/networks/net2-test
+  env_file: /Users/anak10thn/Projects/test/net2/.deploy/networks/net2-test/env.yml
+  project: net2-test
+  stack: networks

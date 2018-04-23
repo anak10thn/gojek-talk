@@ -1,0 +1,8 @@
+deploy:
+- networks.net2-test
+networks:
+  net2-test:
+    parameters:
+      cidr: 192.168.8.0/24
+      gateway: 192.168.8.1
+    template: private
